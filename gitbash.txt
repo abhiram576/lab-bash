@@ -1,0 +1,37 @@
+echo "Hello World"
+Q2 
+mkdir new_dir
+Q3
+rmdir new_dir
+Q4
+cp lorem/sed.txt lorem-copy/
+Q5
+cp lorem/at.txt lorem/lorem.txt lorem-copy/
+Q6
+$ cat lorem/sed.txt
+Q7
+$ cat lorem/at.txt lorem/lorem.tx
+Q8
+cd ~/IH-Labs/lab-bash/lorem-copy
+head -n 3 sed.txt
+Q9
+cd ~/IH-Labs/lab-bash/lorem-copy
+tail -n 3 sed.txt
+Q10.
+cd ~/IH-Labs/lab-bash/lorem-copy
+echo "Homo homini lupus." >> sed.txt
+Q11
+cd ~/IH-Labs/lab-bash/lorem-copy
+tail -n 3 sed.txt
+Q12.
+sed -i 's/et/ET/g' at.txt
+Q13.
+whoami
+Q14
+pwd
+Q15 - 
+ls *.txt
+Q16
+cat lorem/sed.txt | wc -l
+Q17 
+ls | wc -l
